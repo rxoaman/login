@@ -74,19 +74,6 @@ header{
     font-weight: 700;
     font-style: normal;
 }
-#username{
-    margin-left: 20%;
-    margin-right: 20%;
-    color: #000;
-    font-size:12px;
-}
-#password{
-    margin-left:20%;
-    margin-right:20%;
-    font-size:12px;
-    color: #000;
-}
-
 @media screen and (max-width:600px){
     #panel{
         width: 80%;
@@ -145,5 +132,24 @@ form label{
     background-color: black;
 }
 .input{
-    width:60%;
+    align-items: center;
+    border-radius: 7px;
+    margin-left: 25%;
+    gap: min(20px, 5%);
+    height: 40px;
+    width:min(450px, 50%);
+}
+#password{
+    display:flex;
+    align-items: center;
+    margin-top: min(30px, 40%);
+}
+#username{
+    margin-top: min(10px,10%);
+}
+@media only screen and (max-width:600px) {
+    #panel{
+        margin-left: 3vw;
+    }
+        
 }
