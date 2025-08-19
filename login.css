@@ -140,6 +140,12 @@ form label{
     width:min(450px, 50%);
 }
 #password{
+    margin-top: min(30px, 40%);
+}
+#username{
+    margin-top: min(10px,10%);
+}
+#password{
     display:flex;
     align-items: center;
     margin-top: min(30px, 40%);
